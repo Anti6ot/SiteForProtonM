@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe5417e97d.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <!--поле воодимой инфы -->
+            <label for="checkbox-menu">
+                <!--непосредственно галочка привязання к input-->
+                <ul class="menu touch">
+                    <li><a class="logo" href="#">Протон-М</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#" id="news">Новости</a></li>
+                    <li><a href="pages/index.html">О нас</a></li>
+
+                    <li><a class="contacts" href="pages2/index.html">Контакты</a></li>
+                    <li><a href="#">Заказать</a></li>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section class="intro wrapper">
+            <div class="intro-img">
+                <!-- <p class="intro-text">Энергия мирового<br> -->
+                <!-- стандарта</dp> -->
+            </div>
+            <div class="intro-contacts">
+                <p><i class="fas fa-phone-alt"></i>+7(961)-208-14-83</p>
+                <p><i class="fas fa-map-marker-alt"></i>Тюмень, Россия</p>
+            </div>
+        </section>
+        <selection class="stats wrapper">
+            <div class="stats-text">
+                <h2> Статистика</h2>
+                <p>
+                    Компания «Протон-М» сосредоточила свои усилия на: модернизации существующих энергетических объектов
+                    и строительстве новых с применением современных технологий; участии в разработке и согласовании
+                    проектов строительства, реконструкции и модернизации энергетических объектов.
+                    Использование новых технологий, современного оборудования и материалов позволяет компании удерживать
+                    высокие темпы строительно-монтажных работ и конкурентные цены на оказываемые виды услуг. Наша
+                    организация заинтересована в расширении связей на основе ответственности сторон по взятым
+                    обязательствам, уважения интересов, развития и упрочнения отношений с долгосрочной перспективой.
+                    </p>
+            </div>
+            <div class="stats-num">
+                <div class="stats-line">
+                    <div class="square">
+                        <span class="stats-square" data-num="100"></span>
+                        <span class="square-text">Приборов установленно</span>
+                        <img src="img/pribor.png" alt="" width="80" height="80">
+                    </div>
+                    <div class="square">
+                        <span class="stats-square" data-num="200"></span>
+                        <span class="square-text">Километров кабеля<br> протянуто</span>
+                        <img src="img/provod.png" alt="" width="80" height="80">
+                    </div>
+                </div>
+                <div class="stats-line">
+                    <div class="square">
+                        <span class="stats-square" data-num="300"></span>
+                        <span class="square-text">Подключено кабеля</span>
+                        <img src="img/power.png" alt="" width="80" height="80">
+                    </div>
+                    <div class="square">
+                        <span class="stats-square" data-num="18"></span>
+                        <span class="square-text">Лет на рынке</span>
+                        <img src="img/days.png" alt="" width="80" height="80">
+                    </div>
+
+                </div>
+
+            </div>
+        </selection>
+
+        <section class="steps news">
+            <div class="wrapper">
+                <h2>Новости</h2>
+
+                <div class="steps-container">
+                    <div class="stepblock" id="stepbl1">
+                        <div class="stepblimg">
+                            <img src="img/sunbuttery.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at officia cum ab vero. Ea
+                                eum dicta laboriosam. Tempora, quia vel?</p>
+                        </div>
+
+                    </div>
+                    <div class="stepblock" id="stepbl2">
+                        <div class="stepblimg">
+                            <img src="img/sunbuttery.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur, eos voluptatum
+                                consectetur, impedit magni ad tempore eum odio aspernatur recusandae ipsum cupiditate
+                                vel aut. Tenetur asperiores libero veritatis ipsam recusandae! Quidem.</p>
+                        </div>
+
+                    </div>
+                    <div class="stepblock" id="stepbl3">
+                        <div class="stepblimg">
+                            <img src="img/sunbuttery.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aut perferendis harum
+                                voluptatum maxime hic! Voluptatibus beatae voluptatum est tempora odio. Fugit veniam at
+                                porro ipsam rerum est praesentium voluptas ex optio!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="services wrapper">
+            <h2>Сервис</h2>
+            <p>Монтаж электро-технического оборудования </p>
+            <p>производиться высоко-квалифицированными специалистами</p>
+            <div class="serv-container">
+                <div class="serv-img-container">
+                    <img src="img/serv.jpg" alt="">
+                </div>
+                <div class="serv-text">
+                    <h4>Renting</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Beatae fugit expedita molestiae dolorum illo! Corrupti eum
+                        exercitationem esse sunt amet.</p>
+
+                    <h4>Renting</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Beatae fugit expedita molestiae dolorum illo! Corrupti eum
+                        exercitationem esse sunt amet.</p>
+
+                    <h4>Renting</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Beatae fugit expedita molestiae dolorum illo! Corrupti eum
+                        exercitationem esse sunt amet.</p>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="add wrapper">
+            <div class="add-line">
+                <div class="line-img">
+                    <img src="img/ecolamp.jpg" alt="">
+                    <div class="location location-melbourn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Tuymen, Russia
+                    </div>
+                </div>
+                <div class="line-text">
+                    <h3>Новая школа № 30 взамен аварийной</h3>
+                    <p>Сносить, нельзя оставить – вынуждены были обозначить судьбу аварийного корпуса школы № 30
+                        тюменские чиновники накануне нового года. Значительно ускорить принятие такого решения удалось
+                        благодаря родителям, которые всю осень держали в тонусе не только руководство школы, но и
+                        городской департамент образования</p>
+                    <div class="show-more"> <a href="https://fedpress.ru/news/72/society/2405178" target="_blank">show
+                            me more</a> </div>
+                </div>
+
+            </div>
+            <div class="add-line add-line-right">
+
+                <div class="line-text line-text2">
+                    <h3>Обьект #2</h3>
+                    <p>Описаниеописаниеописани
+                        еОписаниеописаниеописаниеОписаниеописан
+                        саниеописаниеописаниеОписаниеописаниеописани
+                        саниеОписаниеописаниеописаниеОписаниеописа
+                        исаниеОписаниеописаниеописаниеОписаниеописа
+                        ниеописаниеОписаниеописаниеописание.</p>
+                    <div class="show-more2"> <a href="#" target="_blank">show me more</a> </div>
+                </div>
+                <div class="line-img">
+                    <img src="img/object2.jpg" alt="">
+                    <div class="location location-australia">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Tuymen, Russia
+                    </div>
+                </div>
+            </div>
+            <div class="add-line">
+                <div class="line-img">
+                    <img src="img/lamp.jpg" alt="">
+
+                </div>
+                <div class="line-text">
+                    <h3>Энергосберегающие материалы</h3>
+                    <p>От других компаний мы отличаемся качеством исполнения работ
+                        и используемым Энергосберегающим материалом
+
+                    </p>
+                    <div class="show-more"> <a href="#" target="_blank">show me more</a> </div>
+                </div>
+            </div>
+
+
+            <button class="open-button" onclick="openForm()">Подпишитесь</button>
+
+            <div class="form-popup" id="myForm">
+                <form action="#" class="form-container">
+                    <h1>Подписаться</h1>
+
+                    <label for="name"><b>Имя</b></label>
+                    <input type="text" placeholder="Ваше имя" name="name" required>
+
+                    <label for="email"><b>Е-мейл</b></label>
+                    <input type="text" placeholder="Ваш е-мейл" name="email" required>
+
+                    <button type="submit" class="btn">Отправить</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <div class="footer-logo">
+                    <h3>Протон-М</h3>
+                    <h3>Эргономичное решение</h3>
+                </div>
+                <div class="footer-search">
+                    <input type="text" placeholder="Subscribe to our news">
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
